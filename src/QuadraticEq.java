@@ -6,8 +6,8 @@ public class QuadraticEq {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		
-		double b;
-		double c;
+		float b;
+		float c;
 		
 		System.out.print("b의 값을 입력하시오: ");
 		b = input.nextFloat();
@@ -23,8 +23,6 @@ public class QuadraticEq {
 		System.out.println("첫번째 근 : " + r1);
 		System.out.println("두번째 근 : " + r2);
 		input.close();
-
-
 	}
 
 }
